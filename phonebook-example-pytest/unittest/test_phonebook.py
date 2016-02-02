@@ -45,12 +45,12 @@ class PhonebookTest(unittest.TestCase):
         self.phonebook.add("Bob", "123")  # prefix of Bob
         self.assertFalse(self.phonebook.is_consistent())
 
-    def test_phonebook_with_normal_entries_is_consistent(self):
+    def test_phonebook_with_several_compatible_entries_is_consistent(self):
         self.phonebook.add("Bob", "12345")
         self.phonebook.add("Mary", "012345")
         self.assertTrue(self.phonebook.is_consistent())
 
-    def test_phonebook_with_normal_entries_is_inconsistent(self):
+    def test_phonebook_with_a_duplicate_number_is_inconsistent(self):
         self.phonebook.add("Bob", "12345")
         self.phonebook.add("Mary", "12345")
         self.assertFalse(self.phonebook.is_consistent())

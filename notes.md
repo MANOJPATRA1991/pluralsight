@@ -159,3 +159,30 @@
 # Unit Testing in the Wider Development Process
 
 <http://www.martinfowler.com/articles/continuousIntegration.html>
+
+
+***
+
+
+# xUnit
+
+- JUnit was originally created by Kent Beck and Erich Gamma
+
+# Defining Test Cases with `py.test`
+
+# Interpreting Test Failures
+
+# Test Fixture Functions
+
+![](./images/test-fixture-functions.png)
+
+- Create test fixture functions that can provide resources to test cases
+- Test cases will request a resource they need (sort of a dependency injection)
+
+```python
+@pytest.fixture
+def resource:
+    return Resource()
+```
+
+- *Unit tests should be in memory*
