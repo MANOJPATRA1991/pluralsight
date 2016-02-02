@@ -168,10 +168,6 @@
 
 - JUnit was originally created by Kent Beck and Erich Gamma
 
-# Defining Test Cases with `py.test`
-
-# Interpreting Test Failures
-
 # Test Fixture Functions
 
 ![](./images/test-fixture-functions.png)
