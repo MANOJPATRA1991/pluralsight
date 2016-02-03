@@ -2,3 +2,6 @@
 healthcare/
 seatfinder-example-unittest
 telemetry-example-unittest
+
+# .pyc files
+*.pyc
