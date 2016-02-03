@@ -5,3 +5,8 @@ telemetry-example-unittest
 
 # .pyc files
 *.pyc
+*.md
+
+# testing cache files
+.cache
+__pycache__
