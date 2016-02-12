@@ -1,7 +1,8 @@
 # Incomplete examples
-healthcare/
+healthcare
 seatfinder-example-unittest
 telemetry-example-unittest
+interaction-testing-example
 
 # .pyc files
 *.pyc

@@ -240,3 +240,65 @@ def factorial(n):
 - "I'll know it when I see it"
 
 ![](./images/approval-testing.png)
+
+
+***
+
+
+# [Test Double](https://en.wikipedia.org/wiki/Test_Double)
+
+![](./images/test-double.png)
+
+- like "Stunt Doubles" who stand in for actors in films
+- class under test doesn't know it isn't talking to the real object
+- Allow you to control what happens to your class under test
+
+## Stub
+
+- Returns a hard coded answer to any query
+- Stands in for collborating objects that is difficult to use in a test case
+- Same interface
+- But has no logic or advanced behavior
+
+
+## Fake
+
+A real implementation, yet unsuitable for production.
+
+Common things to replace with fakes:
+
+![](./images/test-fakes-replacement.png)
+
+
+## Mock
+
+A stub that additionally verifies interactions.
+
+### Three Kinds of Assertions
+
+1. Check the return value or an exception
+2. Check a state change (use a public API)
+3. Check a method call (use a mock or spy)
+
+
+## Spy
+
+Lets you query afterwards to find out what happened.
+
+
+## Dummy Object
+
+For when the interface requires an argument.
+
+
+# Test Isolation
+
+![](./images/test-isolation.png)
+
+
+***
+
+
+# Monkeypatching
+
+- Changing code at runtime
