@@ -182,3 +182,61 @@ def resource:
 ```
 
 - *Unit tests should be in memory*
+
+
+***
+
+- Situations when you'd use `doctest`
+- Making documentation comments more truthful
+- Handling output that changes
+- Using `doctest` for regression testing
+
+# [`doctest`](docs.python.org/3.3/library/doctest.html)
+
+- Checking examples in docstrings
+- Regression testing
+- Tutorial documentation
+
+```python
+def factorial(n):
+    """Return the factorial of n, an exact integer >= 0
+
+    >>> [factorial(n) for n in range(6)]
+    [1, 1, 2, 6, 24, 120]
+    >>> factorial(30)
+
+    >>> factorial(-1)
+    Traceback (most recent call last):
+        ...
+    ValueError: n must be >= 0
+
+    Factorials of floats are OK, but the float must be an exact integer:
+    >>> factorial(30.1)
+    Traceback (most recent call last):
+        ...
+    """
+```
+
+
+# Handling Output That Changes
+
+- Dictionaries
+- Floating point numbers
+- Object ids
+- Tracebacks?
+
+# `doctest` Directives
+
+`#doctest: +ELLIPSIS`
+
+- Directives control how doctest matches output
+- Use wildcard matching with care
+
+<http://docs.python.org/3.3/library/doctest.html#doctest-directives>
+
+
+# Approval Testing
+
+- "I'll know it when I see it"
+
+![](./images/approval-testing.png)
