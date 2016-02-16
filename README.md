@@ -10,3 +10,5 @@ To follow through this course and run the code, the following python modules nee
 
 - [`unittest`](https://docs.python.org/2/library/unittest.html)
 - [`pytest`](http://pytest.org/latest/getting-started.html)
+- [`coverage`](https://coverage.readthedocs.org/en/coverage-4.0.3/#)
+- [`pytest-cov`](https://pytest-cov.readthedocs.org/en/latest/)
