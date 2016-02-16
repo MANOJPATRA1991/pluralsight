@@ -302,3 +302,18 @@ For when the interface requires an argument.
 # Monkeypatching
 
 - Changing code at runtime
+
+
+***
+
+
+# Interpreting Coverage Data
+
+- Find missing test cases
+- Get legacy code under test
+- Continuous integration - constant measurement
+
+
+# Test Quality != Coverage
+
+![](./images/test-quality-coverage.png)

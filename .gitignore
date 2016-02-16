@@ -10,3 +10,6 @@ interaction-testing-example
 # testing cache files
 .cache
 __pycache__
+
+# coverage reports
+htmlcov
