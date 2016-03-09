@@ -1,16 +1,20 @@
-# Incomplete examples
-healthcare
-seatfinder-example-unittest
-telemetry-example-unittest
-interaction-testing-example
-
 # .pyc files
-*.pyc
+**.pyc
 
 # testing cache files
 .cache
 __pycache__
 
+# ===================== (START) Unit Testing with Python =====================
+
+# Incomplete examples
+Unit-Testing-with-Python/healthcare
+Unit-Testing-with-Python/seatfinder-example-unittest
+Unit-Testing-with-Python/telemetry-example-unittest
+Unit-Testing-with-Python/interaction-testing-example
+
 # coverage reports
-htmlcov
-.coverage
+Unit-Testing-with-Python/**/htmlcov
+Unit-Testing-with-Python/**.coverage
+
+# ====================== (STOP) Unit Testing with Python =====================
