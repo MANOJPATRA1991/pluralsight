@@ -5,6 +5,12 @@
 .cache
 __pycache__
 
+# ===================== (START) Excluded Courses  =====================
+
+Python-Fundamentals
+
+# ====================== (STOP) Excluded Courses  =====================
+
 # ===================== (START) Unit Testing with Python =====================
 
 # Incomplete examples
