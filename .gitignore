@@ -1,26 +1,44 @@
-# .pyc files
-**.pyc
+# Python.gitignore #
+####################
 
-# testing cache files
+## Byte-compiled / optimized / DLL files ##
+###########################################
+__pycache__/
 .cache
-__pycache__
+*.py[cod]
+*$py.class
 
-# ===================== (START) Excluded Courses  =====================
+## Unit test / coverage reports ##
+##################################
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
 
+
+# ----------------------------------------------------------------------------
+
+
+# Excluded Courses #
+####################
 Python-Fundamentals
+Rapid-Javascript-Training
 
-# ====================== (STOP) Excluded Courses  =====================
 
-# ===================== (START) Unit Testing with Python =====================
+# Unit Testing with Python #
+############################
 
-# Incomplete examples
+## Incomplete examples ##
+#########################
 Unit-Testing-with-Python/healthcare
 Unit-Testing-with-Python/seatfinder-example-unittest
 Unit-Testing-with-Python/telemetry-example-unittest
 Unit-Testing-with-Python/interaction-testing-example
 
-# coverage reports
-Unit-Testing-with-Python/**/htmlcov
-Unit-Testing-with-Python/**.coverage
 
-# ====================== (STOP) Unit Testing with Python =====================
+# ----------------------------------------------------------------------------
