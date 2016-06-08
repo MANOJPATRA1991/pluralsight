@@ -24,10 +24,28 @@ coverage.xml
 # ----------------------------------------------------------------------------
 
 
+# Node.gitignore #
+##################
+
+## Logs ##
+##########
+logs
+*.log
+npm-debug.log*
+
+## Dependency directories ##
+############################
+node_modules
+
+
+# ----------------------------------------------------------------------------
+
+
 # Excluded Courses #
 ####################
 Python-Fundamentals
 Rapid-Javascript-Training
+Styling-React-Components
 
 
 # Unit Testing with Python #
