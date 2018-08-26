@@ -140,6 +140,14 @@ BaseException
 No restriction is placed upon what may be passed in for `args` for backward-compatibility reasons.
 In practice, though, only a single string argument should be used.
 
+Unicode exception has five additional named attributes:
+
+1. encoding
+2. reason
+3. object
+4. start
+5. end
+
 # Chaining Exceptions
 
 ## Implicit chaining
