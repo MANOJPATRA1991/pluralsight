@@ -54,7 +54,7 @@ True
 
 - called when `with`-statement body exits
 - can check `type` for `None` to see if an *exception was thrown*
-- be default, propagates exceptions thrown from the `with`-statement's code block
+- by default, propagates exceptions thrown from the `with`-statement's code block
 - if returns `False`, the exception is propagated (answers the question "should the `with`-statement swallow exceptions?")
 - should *NEVER* explicitly re-raise exceptions
 - should *ONLY* raise exceptions if it fails itself
@@ -71,7 +71,7 @@ Standard library module for working with context managers
 
 ## `contextlib.contextmanager`
 
-- A decorator you can youu use to create new context managers
+- A decorator you can use to create new context managers
 - Lets you define context-managers with *simple* control flow
 - Allows you to leverage the *statefulness* of generators
 - Use standard exception handling to propagate exceptions

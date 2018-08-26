@@ -24,12 +24,12 @@ def main():
         try:
             inclination(*p)
         except InclinationError as e:
-            print(e)
-            print(e.__cause__)
-            print(e.__traceback__)
-            traceback.print_tb(e.__traceback__)
-            # s = traceback.format_tb(e.__traceback__)
-            # print(s)
+            print("Error", e)
+            print("Cause", e.__cause__)
+            print("Traceback to: ", e.__traceback__)
+            # traceback.print_tb(e.__traceback__)
+            s = traceback.format_tb(e.__traceback__)
+            print(s)
 
 if __name__ == '__main__':
     main()

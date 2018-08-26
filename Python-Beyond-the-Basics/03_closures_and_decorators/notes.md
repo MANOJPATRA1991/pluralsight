@@ -2,7 +2,6 @@
 
 `def`: define new functions, executed at runtime
 
-
 # LEGB Rule
 
 1. Local

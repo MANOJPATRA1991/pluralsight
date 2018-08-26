@@ -20,6 +20,7 @@ def write_grayscale(filename, pixels):
         # BMP Header
         bmp.write(b'BM')
 
+        # tell() method returns the current position of the file read/write pointer within the file.
         size_bookmark = bmp.tell()    # The next four bytes hold the filesize as a 32-bit
         bmp.write(b'\x00\x00\x00\x00') # little-endian integer. Zero placeholder for now.
 

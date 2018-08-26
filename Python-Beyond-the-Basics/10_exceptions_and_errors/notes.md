@@ -135,6 +135,11 @@ BaseException
 
 ---
 
+# Exception Payloads
+
+No restriction is placed upon what may be passed in for `args` for backward-compatibility reasons.
+In practice, though, only a single string argument should be used.
+
 # Chaining Exceptions
 
 ## Implicit chaining
